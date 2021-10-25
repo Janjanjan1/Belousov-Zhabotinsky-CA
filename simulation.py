@@ -58,7 +58,7 @@ def loop():
     return 
 
 
- 
-c = time.time()           
-loop()
-print(time.time() - c)
+if __name__ == "__main__":
+    c = time.time()           
+    loop()
+    print(time.time() - c)
