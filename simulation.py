@@ -30,7 +30,7 @@ def l(x,a,b):
     for i in range(0,1000):
         for j in range(0,1000):
             a = x[i,j]
-            if a == 1 or a == 2 or a== 3 or a == 4 or a == 5 or a == 6:
+            if 1<= a <=6:
                 new[i,j] = a + 1
             elif a == 0:
                 if A(x,i,j) is True:
